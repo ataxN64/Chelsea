@@ -13,8 +13,8 @@
               padding: 0;
             }
 
-            body {
-              background-color: #ffd54f;
+            .backgroundColor body {
+                background: #000000;
             }
 
             .container {
@@ -24,6 +24,7 @@
 
             h1 {
               font-weight: normal;
+              color: white;
             }
 
             li {
@@ -39,6 +40,20 @@
               font-size: 4.5rem;
             }
             /*final del reloj*/
+
+            h2 {
+                font-size: 20px;
+                color: white;
+            }
+            h1 {
+                font-size: 45px;
+                color: white;
+            }
+
+            .color{
+                color: white;
+            }
+
         </style>
         
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lemon' rel='stylesheet' type='text/css'>
@@ -79,7 +94,7 @@
                         <div class="col-md-12">
                                 <div class="container">
                                   <h1 id="head">Esta página terminara en:</h1>
-                                  <ul>
+                                  <ul id="color" class="color">
                                     <li><span id="days"></span>Dias</li>
                                     <li><span id="hours"></span>Horas</li>
                                     <li><span id="minutes"></span>Minutos</li>
